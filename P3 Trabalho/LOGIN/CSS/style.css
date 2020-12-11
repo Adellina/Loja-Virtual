@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("../IMAGENS/fundo3.jpg");
+    background-size: cover;
+    background-position: 80% 50%;
+    color: white;
+    font-family: arial;
+}
+
+input{
+    display: block;
+    width: 400px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 10pt;
+    padding: 10px 10px;
+    background-color: rgba(255,255,255,0.01);
+    color: white;
+    cursor: pointer;
+
+}
+
+div#corpo-form{
+    width: 420px;
+    margin: 150px auto 0px auto;
+}
+
+div#corpo-form h1, div#corpo-form-cad{
+    text-align: center;
+    padding: 20px;
+}
+div#corpo-form-cad{
+    width: 420px;
+    margin: 80px auto 0px auto;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+a:hover{
+    text-decoration:  underline;
+}
+
+input[type=submit]{
+    width: 422px;
+    background-color: #FF0066;
+    border: none;
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder{
+    color: #fff;
+}
+::-moz-placeholder{
+    color: #fff;
+}
+::-moz-placeholder{
+    color: #fff;
+}
+:-ms-input-placeholder{
+    color: #fff;
+}

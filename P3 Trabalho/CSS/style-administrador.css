@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: arial;
+}
+
+
+/*-----------------------Menu*/
+
+nav{
+    background-color:  #d3a2b1;
+    height: 60px;
+}
+
+ul{
+    list-style: none;
+    float: right;
+    margin-right: 100px;;
+}
+
+
+li{
+    display: inline-block;
+    line-height: 60px;
+    padding: 0px 15px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover{
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+input{
+    display: block;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 10pt;
+    padding: 10px 10px;
+    background-color: rgba(255,255,255,0.01);
+    color:black;
+    cursor: pointer;
+    width: 300px;
+    margin-bottom: 20px;
+}
+input[type=submit]{
+    width: 50px;
+    background-color: #FF0066;
+    border: none;
+    cursor: pointer;
+    
+   
+}
+
+input.botao1{
+    width: 75px;
+    background-color: #FF0066;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    display: block;
+    padding-bottom: 5px;
+    padding: 10px 10px;
+    margin: 5px;
+    
+}
+input.escolher-foto{
+    width: 300px;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 10px 10px;
+    display: block;
+    border: 1px solid black;
+    font-size: 10pt;
+    background-color: rgba(255,255,255,0.01);
+    color:black;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+ section{
+     background-color: #d3a2b1;
+     width: 30%;
+     margin: auto;
+     float: left;
+     margin: 10px;
+ }
+
+ form{
+     width: 100%;
+     margin: auto;
+     box-sizing: border-box;
+     padding: 20px;
+ }
+
+ h1{
+    font-family: Arial;
+    font-size: 20pt;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ a.tela-produto{
+    text-decoration: none;
+    color:white;
+    display: block;
+    width: 200px;
+    height: 40px;
+    float: right;
+    text-align: center;
+    line-height: 60px;
+    margin: 5px;
+    border: black;
+    font-family: Arial;
+    font-size: 15pt;
+    
+}
+
+a:hover{
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
